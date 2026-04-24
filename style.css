@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #0f8dd1;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.container table {
+    background-color: #a9a9a9;
+}
+
+.save {
+    border-color: rgb(181, 6, 6);
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.save:hover {
+    border-color: #067ebe;
+    color: rgb(6, 0, 0);
+    background-color: #0f8dd1;
+}
+
+#course {
+    width: 100%;
+    padding: 5px;
+}
+
+/* result */
+
+.result #resultTable{
+    margin-top: 50px;
+    color: black;
+    background-color: white;
+    width: 80%;
+}
+
+.delete {
+    width: 100%;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-color: rgb(209, 3, 3);
+}
